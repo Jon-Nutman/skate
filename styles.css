@@ -1,4 +1,172 @@
-*{
-    margin: 0px;
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+ul{
+    height: 20px;
+    width: 1897px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+li{
+    height: 20px;
+    border: solid red 5px;
+    background-repeat: no-repeat;
+    background-color: red;
+    margin: 10px;
+    padding: 10x;
+}
+.banner {
+    border: solid white 10px;
+    background-position: top;
+    padding: 228px 700px;
+    background-image: url(assets/top-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner img {
+    width: 360px;
+  }
+/*.banner img{
+    background-image: url("assets/top-image.png");
+    height: 500px;
+    width: 50%;
+}  */
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+.panels{
+    font-size: 50px;
+    margin: 10px;
+    background-color: white;
+    border: solid white 5px;
+    padding: 70px;
+}
+.panels h2{
+    font-size: 20px;
+}
+section2{
+    display: grid;
+    grid-template-areas:
+"div1 div2 div3"
+"div4 div4 div3"
+;
+}
+div1, div2, div3, div4{
+    color: white;
+    min-height: 348px;
+    margin: 10px;
+    border: solid white 10px;
+}
+div1{
+    font-size: 25px;
+    background-image: url(assets/sk8er-4.png);
+    grid-area: div1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div2{
+    font-size: 25px;
+    background-image: url(assets/sk8er-3.png);
+    grid-area: div2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div3{
+    font-size: 45px;
+    background-image: url(assets/sk8er-2.png);
+    grid-area: div3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+div4{
+    font-size: 45px;
+    background-image: url(assets/sk8er-1.png);
+    grid-area: div4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.boards{
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form
+{
+   display: flex;
+    flex-direction: column;
+    padding: 0px 50px 0px 400px;
+}
+
+h1.form{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        left: 1000px;
+}
+/*
+container {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 100px;
+    grid-column-gap: 20px
+    grid-row-gap: 20px
+    justify-items: stretch
+    align-items: stretch
+    border: solid black 5px;
+ }
+ container div{
+    border: solid black 5px;
+ }
+ container2 {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 150px;
+        grid-column-gap: 20px
+        
+ }
+ container2 div{
+    border: solid black 5px;
+ }
+ container3 {
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 300px;
+    grid-column-gap: 20px
     
 }
+container3 div{
+    display: flex;
+
+    border: solid black 5px;
+ }
+ 
