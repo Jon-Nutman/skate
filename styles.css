@@ -58,7 +58,7 @@ section{
     margin: 10px;
     background-color: white;
     border: solid white 5px;
-    padding: 70px;
+    padding: 131px;
 }
 .panels h2{
     font-size: 20px;
@@ -75,6 +75,7 @@ div1, div2, div3, div4{
     min-height: 348px;
     margin: 10px;
     border: solid white 10px;
+    
 }
 div1{
     font-size: 25px;
@@ -83,14 +84,18 @@ div1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 570px;
 }
+
 div2{
     font-size: 25px;
     background-image: url(assets/sk8er-3.png);
     grid-area: div2;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 570px;
 }
+
 div3{
     font-size: 45px;
     background-image: url(assets/sk8er-2.png);
@@ -127,12 +132,15 @@ form
     padding: 0px 50px 0px 400px;
 }
 
-h1.form{
-        display: flex;
-        justify-content: flex-start;
-        position: absolute;
-        left: 1000px;
+.submit{
+color: white;
+background-color: red;
 }
+.boards img{
+    padding: 50px;
+}
+
+
 /*
 container {
     display: grid;
