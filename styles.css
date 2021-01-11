@@ -32,7 +32,7 @@ li{
 .banner {
     border: solid white 10px;
     background-position: top;
-    padding: 228px 700px;
+    padding: 50px 200px;
     background-image: url(assets/top-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,14 +51,14 @@ section{
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin: 50px;
+    margin: 0px;
 }
 .panels{
-    font-size: 50px;
+    font-size: 25px;
     margin: 10px;
     background-color: white;
     border: solid white 5px;
-    padding: 131px;
+    padding: 0px 45px;
 }
 .panels h2{
     font-size: 20px;
@@ -72,7 +72,7 @@ section2{
 }
 div1, div2, div3, div4{
     color: white;
-    min-height: 348px;
+    
     margin: 10px;
     border: solid white 10px;
     
@@ -84,7 +84,7 @@ div1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 570px;
+    
 }
 
 div2{
@@ -93,7 +93,7 @@ div2{
     grid-area: div2;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 570px;
+   
 }
 
 div3{
